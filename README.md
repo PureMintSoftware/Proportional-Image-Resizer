@@ -8,7 +8,7 @@ It outputs the resized images to a new "Resized" folder inside the original imag
 Example 
 -------
 
-You have a folder called "Cat Memes", and the images are a mix of portrait, landscape, square, and every proportion in between.  
+You have a folder called "Cat Memes", and the images are a mix of portrait, landscape, square etc.  
 You want to resize them (whether up or down) so that their longest sides all become 1000 pixels, whilst maintaining their original proportionality.  
   
 Your 2000 x 1000 image will become 1000 x 500.  
