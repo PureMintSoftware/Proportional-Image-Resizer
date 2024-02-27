@@ -14,3 +14,11 @@ You want to resize them (whether up or down) so that their longest sides all bec
 Your 2000 x 1000 image will become 1000 x 500.  
 Your 500 x 1000 image will remain 500 x 1000.  
 Your 1583 x 1583 image will become 1000 x 1000.  
+
+Required Libraries 
+------------------
+
+It just requires Pillow. OS and Tkinter should already be installed in any Python installation. Commands below just in case!
+
+pip install pillow
+pip install tk
