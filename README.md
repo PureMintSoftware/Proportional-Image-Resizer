@@ -18,6 +18,7 @@ Your 1583 x 1583 image will become 1000 x 1000.
 Required Libraries 
 ------------------
 
-It just requires Pillow. OS and Tkinter should already be installed in any Python installation. Pip commands below just in case. Just type the line below into your Windows Terminal in the usual way, after typing "CMD" into the Start Menu :)
+It just requires Pillow. OS and Tkinter should already be installed in any Python installation.  
+Just type the line below into your Windows Terminal in the usual way, after typing "CMD" into the Start Menu :)  
 
 >pip install pillow tk
