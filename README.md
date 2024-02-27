@@ -11,9 +11,10 @@ Example
 You have a folder called "Cat Memes", and the images are a mix of portrait, landscape, square etc.  
 You want to resize them (whether up or down) so that their longest sides all become 1000 pixels, whilst maintaining their original proportionality.  
   
-Your 2000 x 1000 image will become 1000 x 500.  
-Your 500 x 1000 image will remain 500 x 1000.  
-Your 1583 x 1583 image will become 1000 x 1000.  
+A 2000 x 1000 (Landscape Image) will become 1000 x 500 (Scaled Down).  
+A 300 x 400 (Portrait Image) will become 1000 x 750 (Scaled Up).
+A 1583 x 1583 (Square Image) will become 1000 x 1000 (Scaled Down). 
+A 500 x 1000 (Portrait Image) will remain 500 x 1000 (No Scaling Required).  
 
 Required Libraries 
 ------------------
