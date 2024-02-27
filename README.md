@@ -20,6 +20,6 @@ Required Libraries
 ------------------
 
 It just requires Pillow, because OS and Tkinter should already be installed in any Python installation.  
-Just type the line below into your Windows Terminal in the usual way, after typing "CMD" into the Start Menu :)  
+Open "CMD" from the Windows Start Menu, type the line below into the Windows Terminal, and press enter.
 
 >pip install pillow tk
