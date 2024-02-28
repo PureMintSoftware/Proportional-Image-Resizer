@@ -144,5 +144,6 @@ class ImageResizer:
 
 if __name__ == "__main__":
     root = tk.Tk()
+    root.resizable(False, False)
     app = ImageResizer(root)
     root.mainloop()
