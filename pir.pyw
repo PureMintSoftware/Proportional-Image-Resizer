@@ -8,6 +8,7 @@ class ImageResizer:
         self.master = master
         self.master.title("Proportional Image Resizer")
         self.master.geometry("465x350")
+        self.center_window()
         self.master.bind("<Configure>", self.on_configure)
 
         self.selected_folder = ""
@@ -31,6 +32,13 @@ class ImageResizer:
 
         self.feedback_text = tk.Text(self.master, height=10, width=50, state="disabled")
         self.feedback_text.grid(row=4, column=0, columnspan=2, pady=10, padx=10, sticky="ew")
+
+    def center_window(self):
+        screen_width = self.master.winfo_screenwidth()
+        screen_height = self.master.winfo_screenheight()
+        x_coordinate = (screen_width / 2) - (465 / 2)
+        y_coordinate = (screen_height / 2) - (350 / 2)
+        self.master.geometry(f"465x350+{int(x_coordinate)}+{int(y_coordinate)}")
 
     def on_configure(self, event):
         if self.master.state() == 'zoomed':
