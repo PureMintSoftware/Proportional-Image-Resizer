@@ -24,3 +24,10 @@ It just requires Pillow, because OS and Tkinter should already be installed in a
 Open "CMD" from the Windows Start Menu, type the line below into the Windows Terminal, and press enter.
 
 >pip install pillow tk
+
+Running The Script
+------------------
+
+Open "CMD" from the Windows Start Menu, type the line below into the Windows Terminal, and press enter.
+
+>python pir.pyw
