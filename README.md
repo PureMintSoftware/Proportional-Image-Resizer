@@ -4,6 +4,7 @@ by Pure Mint Software
 
 Resizes a folder of images to a new user determined size, whilst keeping the proportions of the original images.   
 It outputs the resized images to a new "Resized" folder inside the original image folder.  
+Any files which don't require resizing will just be copied to the "Resized" folder instead.  
 
 Example 
 -------
