@@ -28,6 +28,6 @@ Open "CMD" from the Windows Start Menu, type the line below into the Windows Ter
 Running The Script
 ------------------
 
-Open "CMD" from the Windows Start Menu, type the line below into the Windows Terminal, and press enter.
+Open "CMD" from the Windows Start Menu. Navigate to the folder where you have downloaded the script using the "CD" command, and then type the line below into the Windows Terminal, and press enter.
 
 >python pir.pyw
