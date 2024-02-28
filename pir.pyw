@@ -3,7 +3,6 @@ import tkinter as tk
 from tkinter import filedialog, ttk
 from PIL import Image, ImageTk
 
-
 class ImageResizer:
     def __init__(self, master):
         self.master = master
@@ -122,7 +121,16 @@ class ImageResizer:
                 self.feedback(f"{file_name} resized and saved.")
 
             else:
-                self.feedback(f"{file_name} did not require resizing.")
+                output_dir = os.path.dirname(output_path)
+                os.makedirs(output_dir, exist_ok=True)
+                with open(file_path, 'rb') as src_file:
+                    with open(output_path, 'wb') as dest_file:
+                        while True:
+                            chunk = src_file.read(1024 * 1024)
+                            if not chunk:
+                                break
+                            dest_file.write(chunk)
+                self.feedback(f"{file_name} copied without resizing.")
         except Exception as e:
             self.feedback(f"Error processing {file_path}: {e}")
 
