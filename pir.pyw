@@ -285,7 +285,7 @@ class ResizerApp(QMainWindow):
         self.setup_ui()
 
     def setup_window(self):
-        self.setWindowTitle("Pro Batch Resizer (Upscale/Downscale)")
+        self.setWindowTitle("Proportional Image Resizer")
         self.resize(600, 750)
         self.setStyleSheet(STYLESHEET)
 
@@ -511,4 +511,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = ResizerApp()
     window.show()
+
     sys.exit(app.exec())            
