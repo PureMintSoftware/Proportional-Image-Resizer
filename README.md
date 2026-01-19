@@ -55,3 +55,8 @@ python pir.pyw
 ```
 
 *Note: On the first run, if you are missing libraries, a dialog box will appear letting you know that the system is installing the necessary dependencies. The app will restart automatically once finished.*
+
+## Support
+
+**Find this tool useful?**
+If you use this script and like it, please consider giving the repository a **Star ⭐**! It helps others discover the project and keeps the software free and open source.
