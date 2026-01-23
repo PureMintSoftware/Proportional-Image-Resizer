@@ -60,5 +60,4 @@ python pir.pyw
 
 ## Support
 
-**Find this tool useful?**
-If you use this script and like it, please consider giving the repository a **Star ⭐**! It helps others discover the project and keeps the software free and open source.
+**If you find Proportional Image Resizer useful, please give it a star by hitting the button up in the top right corner! ⭐**
