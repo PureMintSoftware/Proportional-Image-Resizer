@@ -1,13 +1,11 @@
 # Proportional Image Resizer
 **by Pure Mint Software**
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)                                                                                                                                                                                                
-![PyQt6](https://img.shields.io/badge/PyQt6-6.0+-green.svg)                                                                                                                                                                                                 
-![License](https://img.shields.io/badge/license-GPL%203.0-blue.svg)    
+A high-performance, modern desktop utility designed to batch resize images while strictly maintaining their aspect ratio. Built with a dark-mode GUI, it leverages multiprocessing to handle large queues of images rapidly. It automatically scans folders (and subfolders), processes images to a target "longest side" dimension, and outputs them to a new folder, ensuring your original files remain untouched.
 
-A high-performance, modern desktop utility designed to batch resize images while strictly maintaining their aspect ratio. Built with a dark-mode GUI, it leverages multiprocessing to handle large queues of images rapidly.
-
-It automatically scans folders (and subfolders), processes images to a target "longest side" dimension, and outputs them to a new folder, ensuring your original files remain untouched.
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![PyQt6](https://img.shields.io/badge/PyQt6-6.0+-green.svg)
+![License](https://img.shields.io/badge/license-GPL%203.0-blue.svg)
 
 ## Major Functionality
 
