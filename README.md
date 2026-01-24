@@ -7,6 +7,12 @@ A high-performance, modern desktop utility designed to batch resize images while
 ![PyQt6](https://img.shields.io/badge/PyQt6-6.0+-green.svg)
 ![License](https://img.shields.io/badge/license-GPL%203.0-blue.svg)
 
+## App Preview
+
+<p align="center">
+  <img src="./Preview.jpg" alt="App Preview" width="600">
+</p>
+
 ## Major Functionality
 
 *   **Smart Proportional Sizing:** Resizes images based on the longest edge (width or height). Whether the image is Portrait, Landscape, or Square, the longest side becomes your target pixel size, and the shortest side scales automatically to match.
